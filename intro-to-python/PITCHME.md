@@ -4,9 +4,9 @@
 
 ---?include=/topics/what-is-python.md
 ---?include=../topics/hello-python.md
----?include=intro-to-python/topics/data-types.md
+---?include=/intro-to-python/topics/data-types.md
 ---?include=/intro-to-python/topics/string.md
----?include=topics/numeric.md
+---?include=./topics/numeric.md
 ---?include=topics/list.md
 ---?include=topics/dynamic-typing.md
 ---?include=topics/dictionary.md
