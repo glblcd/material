@@ -12,14 +12,14 @@
   width: 150px;
 }
 
-.reveal .slides {
-  text-align: left;
-}
-
 .reveal pre {
   width: 1000px;
 }
 
 #iot-in-africa-2017 + p>img{
   width:200px;
+}
+
+html{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
