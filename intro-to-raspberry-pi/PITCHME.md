@@ -1,6 +1,6 @@
 ## Raspberry Pi
 ##### IoT in Africa | 2017
-![Raspberry Pi](/assets/img/raspberry-pi-550x650.png)
+![Raspberry Pi](/assets/img/raspberry-pi-720x340.png)
 
 ---
 ## What is the Raspberry Pi?
