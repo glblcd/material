@@ -1,4 +1,4 @@
-# ![Intro to git and github](assets/img/github-256.png) Intro to git and github
+# ![Intro to git and github](/assets/img/github-256.png) Intro to git and github
 ## Teaching Materials
 
 [Teaching Slides](https://gitpitch.com/iotinafrica/intro-to-git-and-github)

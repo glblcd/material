@@ -1,4 +1,4 @@
-# ![Intro to web APIs](assets/img/maps-372×594.png) Intro to web APIs
+# ![Intro to web APIs](/assets/img/maps-372×594.png) Intro to web APIs
 ## Teaching Materials
 
 [Teaching Slides](https://gitpitch.com/iotinafrica/intro-to-web-apis) |

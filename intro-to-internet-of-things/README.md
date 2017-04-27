@@ -1,4 +1,4 @@
-# ![Intro to Internet of Things](assets/img/course logo.png) Intro: Internet of Things
+# ![Intro to Internet of Things](/assets/img/course logo.png) Intro: Internet of Things
 ## Teaching Materials
 
 [Teaching Slides](https://gitpitch.com/iotinafrica/intro-to-internet-of-things)

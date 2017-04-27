@@ -1,4 +1,4 @@
-# ![Course name as logo alt-text](assets/img/course logo.png) Course name
+# ![Course name as logo alt-text](/assets/img/course logo.png) Course name
 ## Teaching Materials
 
 [Teaching Slides](https://gitpitch.com/iotinafrica/course-name-as-repo-name)
