@@ -1,4 +1,4 @@
-# ![Advanced Python](assets/img/logo-small-256.png) Advanced Python
+# ![Advanced Python](../assets/img/logo-small-256.png) Advanced Python
 ## Teaching Materials
 
 [Teaching Slides](https://gitpitch.com/iotinafrica/advanced-python)
