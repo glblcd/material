@@ -2,7 +2,7 @@
 # Introduction to Python
 ## Teaching Materials
 
-[Teaching Slides](https://gitpitch.com/iotinafrica/intro-to-python)
+[Teaching Slides](https://gitpitch.com/iotinafrica/material?p=intro-to-python)
 | [Labs](labs/)
 
 ## Introduction
