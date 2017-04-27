@@ -1,0 +1,25 @@
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0)
+}
+
+.gist {
+  font-size: 32px;
+}
+
+#gp-logo>img {
+  width: 150px;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .pre {
+  width: 1000px;
+}
+
+#iot-in-africa-2017 + p>img{
+  width:200px;
+}
