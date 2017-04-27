@@ -2,7 +2,7 @@
 # Advanced Python
 ## Teaching Materials
 
-[Teaching Slides](https://gitpitch.com/iotinafrica/advanced-python)
+[Teaching Slides](https://gitpitch.com/iotinafrica/material?p=advanced-python)
 
 ## Introduction
 The aim of this module is twofold:
