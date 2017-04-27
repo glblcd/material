@@ -1,4 +1,4 @@
-# ![IoT in Africa](assets/img/logo-128.png) 
+# ![IoT in Africa](../assets/img/logo-128.png) 
 # Introduction to Python
 ## Teaching Materials
 
