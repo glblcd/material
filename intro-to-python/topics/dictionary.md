@@ -25,7 +25,7 @@ A hash table
 ```
 
 +++
-##Dictionry
+##Dictionary
 * keys()
 
 ```sh

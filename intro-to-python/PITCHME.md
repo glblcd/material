@@ -10,7 +10,6 @@
 ---?include=/intro-to-python/topics/list.md
 ---?include=/intro-to-python/topics/dynamic-typing.md
 ---?include=/intro-to-python/topics/dictionary.md
----?include=/intro-to-python/topics/hello-python.md
 ---?include=/intro-to-python/topics/tuple.md
 ---?include=/intro-to-python/topics/conditionals.md
 ---?include=/intro-to-python/topics/loops.md
