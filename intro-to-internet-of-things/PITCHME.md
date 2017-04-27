@@ -1,4 +1,3 @@
----
 ## Intro: Internet of Things
 ##### IoT in Africa | 2017
 ![Course logo alt text](assets/img/course-logo.png)

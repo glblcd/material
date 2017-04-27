@@ -1,4 +1,3 @@
----
 ## IoT in Africa
 ##### 2017
 ![IoT in Africa](assets/img/logo-small-256.png)
