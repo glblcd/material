@@ -1,4 +1,3 @@
----
 ## Python
 ##### IoT in Africa | 2017
 ![Python](/assets/img/python-360x361.png)
