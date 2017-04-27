@@ -1,4 +1,4 @@
-# ![IoT in Africa](../assets/img/logo-128.png) 
+# ![IoT in Africa](/assets/img/logo-128.png) 
 # IoT in Africa
 
 For teaching materials, notes, schedules etc, See the [Wiki](https://github.com/iotinafrica/material/wiki)
