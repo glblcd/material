@@ -20,7 +20,18 @@
 * pyOWM
   * `pip install pyowm`
 
-+++?gist=f70758637687408b77c27e7f61acf850
++++
+## Let's build it!
+```python
+import pyowm
+
+owm = pyowm.OWM('{API-KEY}')
+observation = owm.weather_at_place('London,uk')
+w = observation.get_weather()
+
+w.get_wind()
+w.get_humidity()
+```
 
 ---
 ## Go play!
