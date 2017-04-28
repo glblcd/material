@@ -70,7 +70,8 @@ GET / HTTP/1.1↵
 ↵
 ```
 
-+++ Web APIs
++++ 
+## Web APIs
 How do I *PUSH* data on the web?
 * ...like in a form
 * POST
