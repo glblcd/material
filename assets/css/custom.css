@@ -31,6 +31,6 @@ reveal .slides {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.gist{
+.gist .blob-code-inner{
   font-size: 222;
 }
