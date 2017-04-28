@@ -14,6 +14,11 @@
 * "hey, Siri..."
 
 ---
+## Let's build it!
+* http://openweathermap.org/
+* pyOWM
+  * `pip install pyowm`
+---
 ## Real world
 * A bunch of sensor data
 * Somehow it gets into apps
@@ -72,7 +77,11 @@ It's called REST
 
 ---
 ## REST
-
+```
+GET  /customers
+GET  /customer/3213
+POST /customer
+```
 +++
 ## A vertical slide has the same title as its initial HSLIDE
 And contains additional information
