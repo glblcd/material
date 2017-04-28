@@ -45,6 +45,7 @@
 ## Plan
 All kinds of other cool stuff!
 * We're *really* good at this
-* who's used git?
+* who's used git? heroku?
 * cool projects
-* competitions & prizes
+* competitions
+* FUN!
