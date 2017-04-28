@@ -30,3 +30,7 @@ reveal .slides {
 .reveal h5 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.gist{
+  font-size: 222;
+}

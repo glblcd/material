@@ -24,7 +24,7 @@
 
 ---
 ## Go play!
-![Hack](/assets/image/hack-600.png)
+![Hack](/assets/img/hack-600.png)
 
 ---
 ## Real world
@@ -48,7 +48,7 @@
 ## Stored data
 * How can I get at it?
   * Connect to the database
-  * Problems?
+    * Problems?
 
 +++
 ## Stored data
@@ -58,7 +58,7 @@
 
 ---
 ## Web APIs
-How do I usually request data on the web?
+How do I request data on the web?
 
 +++
 ## Web APIs
