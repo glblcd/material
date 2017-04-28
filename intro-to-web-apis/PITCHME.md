@@ -16,8 +16,16 @@
 ---
 ## Let's build it!
 * http://openweathermap.org/
+  * get an API key
 * pyOWM
   * `pip install pyowm`
+
++++gist=f70758637687408b77c27e7f61acf850
+
+---
+## Go play!
+
+
 ---
 ## Real world
 * A bunch of sensor data
