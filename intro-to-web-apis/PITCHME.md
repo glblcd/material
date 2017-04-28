@@ -20,15 +20,16 @@
 * pyOWM
   * `pip install pyowm`
 
-+++gist=f70758637687408b77c27e7f61acf850
++++?gist=f70758637687408b77c27e7f61acf850
 
 ---
 ## Go play!
-
+![Hack](/assets/image/hack-600.png)
 
 ---
 ## Real world
 * A bunch of sensor data
+* Geographically distributed
 * Somehow it gets into apps
 
 +++
