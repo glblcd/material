@@ -20,6 +20,10 @@
   width:200px;
 }
 
-h1, h2, h3, h4, h5 {
+.reveal h1, 
+.reveal h2, 
+.reveal h3, 
+.reveal h4, 
+.reveal h5 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
