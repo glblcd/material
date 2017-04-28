@@ -19,6 +19,9 @@
 #iot-in-africa-2017 + p>img{
   width:200px;
 }
+reveal .slides {	
+  text-align: left;
+}
 
 .reveal h1, 
 .reveal h2, 
