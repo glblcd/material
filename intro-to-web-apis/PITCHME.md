@@ -101,9 +101,11 @@ It's called REST
 
 ---
 ## REST
-> GET  /customers
-> GET  /customer/3213
-> POST /customer {*something*}
+~~~~
+GET  /customers
+GET  /customer/3213
+POST /customer {*something*}
+~~~~
 
 +++
 ## REST
