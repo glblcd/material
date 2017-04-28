@@ -103,10 +103,64 @@ GET  /customers
 GET  /customer/3213
 POST /customer
 ```
+
 +++
-## A vertical slide has the same title as its initial HSLIDE
-And contains additional information
-```python
-def maybeSomeCode():
-    okay()
+## REST
+* What does the data look like?
+  * What's its *format*
+
++++
+## REST
+JSON?
+* Javascript Object Notation
+```javascript
+var sam = {
+    givenname: "Sam",
+    familyname: "Moorhouse",
+    DoB: "1984-02-28"
+}
+sam.familyname // Moorhouse
 ```
+
++++
+## REST
+XML?
+* eXtensible Markup Language
+```xml
+<Person>
+    <GivenName>Sam</GivenName>
+    <FamilyName>Moorhouse</FamilyName>
+    <DoB>1984-02-28</DoB>
+</Person>
+```
+
++++
+## REST
+Let's build it!
+```python
+from pprint import pprint
+import requests
+r = requests.get('http://api.openweathermap.org/data/2.5/weather?q=London&APPID={APIKEY}')
+pprint(r.json)
+```
+
++++
+## REST
+What does that URL mean?
+
+> requests.get('http://api.openweathermap.org/data/2.5/weather?q=London&APPID={APIKEY}')
+
++++
+## REST
+```python
+{u'base': u'cmc stations',
+ u'clouds': {u'all': 68},
+ u'cod': 200,
+ u'coord': {u'lat': 51.50853, u'lon': -0.12574},
+ u'dt': 1383907026,
+ u'id': 2643743,
+ u'main': {u'grnd_level': 1007.77,
+```
+...
+
+
