@@ -98,11 +98,9 @@ It's called REST
 
 ---
 ## REST
-```
-GET  /customers
-GET  /customer/3213
-POST /customer
-```
+> GET  /customers
+> GET  /customer/3213
+> POST /customer {*something*}
 
 +++
 ## REST
@@ -146,12 +144,6 @@ pprint(r.json)
 
 +++
 ## REST
-What does that URL mean?
-
-> requests.get('http://api.openweathermap.org/data/2.5/weather?q=London&APPID={APIKEY}')
-
-+++
-## REST
 ```python
 {u'base': u'cmc stations',
  u'clouds': {u'all': 68},
@@ -163,4 +155,17 @@ What does that URL mean?
 ```
 ...
 
+---
+## API
+So the *Python* API is a *Layer* on top of the *REST* API
+* Lower level = more power, more work?
+* Higher level = more meaning, less work?
 
+---
+## What next?
+* The Stars!
+  * https://www.programmableweb.com/api/star
+
+---
+## Go play!
+![Hack](/assets/img/hack-600.png)
