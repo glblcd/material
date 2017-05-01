@@ -32,9 +32,9 @@ w = observation.get_weather()
 w.get_wind()
 w.get_humidity()
 ```
-<!--
+
+Note:
 https://stackoverflow.com/questions/1474489/python-weather-api
--->
 
 ---
 ## Go play!
