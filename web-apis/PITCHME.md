@@ -1,6 +1,6 @@
-## Web APIs: Intro
+## Web APIs
 ##### IoT in Africa | 2017
-![Introduction to Web APIs](/assets/img/weather-512.png)
+![Web APIs](/assets/img/weather-512.png)
 
 ---
 ## What's the weather like?
