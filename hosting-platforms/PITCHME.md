@@ -1,131 +1,90 @@
-## Building a Wep Application
+## Hosting Platforms
 ##### IoT in Africa | 2017
-![Building a Web Application](/assets/img/flask-600.png)
-
----
-## What's a Web Application
-* One where you use a Web Browser :)
-* Your code exists on a web server
+![Hosting Platforms](/assets/img/heroku-733x258.png)
 
 Note:
-At this point, it's a good idea to draw out the box diagrams:
-  * One server, many clients making requests against it
-  * Students should already know a little HTTP
-  * Keep the diagram on a whiteboard & refer back to it through the session
----
-## Let's build one!
-* Flask is a web server
-  * ...and other things
-  * for Python
-  * there are others (e.g. Django)
+This is a great course for teaching in the platonic method - 
+each stage results in a series of questions which are answered
+in the next stage. Feel free to dip in & out of the slides, or
+not use them at all. The ultimate answer, of course, is heroku ;)
 
-```sh
-sudo pip install Flask
-```
+---
+## Where does our code run?
+```python mything.py```
+locally?
+
+---
+## My machine
+* Where everything starts!
+* Who can access that?
+* What happens if hardware breaks?
 
 Note:
-By now, students should be familiar with pip, but worth going over again
+The points to introduce here are that
+* local dev is fine
+* probably good for dev and not hosting
+* our local machine probably has a bunch of cruft on it
+* We're responsible for fixing hardware etc.
 
 +++
-## Let's build one!
-`myapp.py`:
-```python
-from flask import Flask
+## My machine
+* How can people use the stuff I build?
+* What if I write something for a client?
+  * Where should I *put it*?
 
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return 'Hello world'
-
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
-```
-
-`python myapp.py`:
-*  http://127.0.0.1:5000/
-
-Note:
-Get the students to do this, right now. Then, when most are on their way,
-you can bring up the next slide, then the hack! slide.
+---
+## Web Hosting
+```http://www.foobar.com/mything```
+some web hosting provider?
+My stuff is on the *internet*
+* ...has a public IP address
+* DNS maps to a *name*
 
 +++
-## Let's build one!
-* Add another *route*
-
-`myapp.py`:
-```python
-@app.route('/whereami')
-def whereami():
-    return 'Koforidua!'
-```
-`python myapp.py`:
-* http://127.0.0.1:5000/whereami
-
----
-## Go play!
-![Hack](/assets/img/hack-600.png)
-
----
-## Build a homepage
-* Make it interactive
-* Make it look awesome!
+## Web Hosting
+What happens if
+* a disk fails?
+* it works on my machine...
 
 +++
-## Build a homepage
-`myapp.py`:
-```python
-from flask import Flask, render_template
-@app.route('/')
-def index():
-    return render_template('index.html')
-```
-`templates/index.html`:
-```html
-<html>
-    <body>
-        <h1>Hello from a template!</h1>
-    </body>
-</html>
-```
-Note:
-* We've added a new import
-* the *templates* directory is convention
+## Web Hosting
+Who's responsible for
+* Upgrading python?
+* Applying server patches?
 
 +++
-## Build a homepage
-* Add your own css!
-  * create a css file in ```static```
-  * add a ```link``` in your html
+## Web Hosting
+Library version upgrades?
+* `sudo pip install foo`
+* Who has the admin password?
+
++++
+## Web Hosting
+* Who owns the machine?
+  * Mine: $$$
+  * Shared: $
+* I'm probably not maximising resource use
 
 ---
-## Go play!
-![Hack](/assets/img/hack-600.png)
+## Virtual servers
+Shared machine
+* It *looks* like mine
+* Saves some $$$
+* Can grow/shrink GHz,RAM,HDD with use
+
++++
+## Virtual servers
+I can install what I want
+* Same problems!
+
++++
+## Virtual servers
+Wouldn't it be cool if I could just *say* what I wanted?
+* "64-bit RHEL with 72GB Ram, 2TB HDD please"
+```34.123.72.159```
 
 ---
-## Make it *dynamic*
-`myapp.py`:
-```python
-from flask import Flask, render_template
-@app.route('/foo/<name>')
-def foo(name):
-    return render_template('index.html', to=name)
-```
-`templates/index.html`:
-```html
-<html>
-    <body>
-        <h1>Hello, {{to}}!</h1>
-    </body>
-</html>
-```
+## Containers
+"I need python running on linux, with flask, requests and SQLAlchemy installed,
+plus a postgreSQL database."
 
----
-## Go play!
-![Hack](/assets/img/hack-600.png)
-
----
-## Make it *look awesome*
-* Bootstrap!
-https://getbootstrap.com/getting-started/
-* google ```bootstrap themes``` && go!
