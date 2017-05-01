@@ -8,9 +8,13 @@ each stage results in a series of questions which are answered
 in the next stage. Feel free to dip in & out of the slides, or
 not use them at all. The ultimate answer, of course, is heroku ;)
 
+The lab for this section is to get the students webapp running on
+Heroku - so you could even do that *first* to introduce the motivation.
+
 ---
 ## Where does our code run?
 ```python mything.py```
+
 locally?
 
 ---
@@ -35,10 +39,10 @@ The points to introduce here are that
 ---
 ## Web Hosting
 ```http://www.foobar.com/mything```
-some web hosting provider?
-My stuff is on the *internet*
-* ...has a public IP address
-* DNS maps to a *name*
+* some web hosting provider?
+* My stuff is on the *internet*
+  * ...has a public IP address
+  * DNS maps to a *name*
 
 +++
 ## Web Hosting
