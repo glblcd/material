@@ -15,3 +15,7 @@ And contains additional information
 def maybeSomeCode():
     okay()
 ```
+
+
+THINGS TO COVER
+* PIP
