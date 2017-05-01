@@ -36,13 +36,15 @@ if __name__ == '__main__':
 +++
 ## Let's build one!
 * Add another *route*
-```myapp.py:```
+
+`myapp.py`
+
 ```python
 @app.route('/whereami')
 def whereami():
     return 'Koforidua!'
 ```
-```python myapp.py```
+`python myapp.py`
 * http://127.0.0.1:5000/whereami
 
 ---
