@@ -30,21 +30,20 @@ if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
 ```
 
-`python myapp.py`
+`python myapp.py`:
 *  http://127.0.0.1:5000/
 
 +++
 ## Let's build one!
 * Add another *route*
 
-`myapp.py`
-
+`myapp.py`:
 ```python
 @app.route('/whereami')
 def whereami():
     return 'Koforidua!'
 ```
-`python myapp.py`
+`python myapp.py`:
 * http://127.0.0.1:5000/whereami
 
 ---
@@ -58,14 +57,14 @@ def whereami():
 
 +++
 ## Build a homepage
-myapp.py:
+`myapp.py`:
 ```python
 from flask import Flask, render_template
 @app.route('/')
 def index():
     return render_template('index.html')
 ```
-templates/index.html:
+`templates/index.html`:
 ```html
 <html>
     <body>
@@ -89,14 +88,14 @@ Note:
 
 ---
 ## Make it *dynamic*
-myapp.py:
+`myapp.py`:
 ```python
 from flask import Flask, render_template
 @app.route('/foo/<name>')
 def foo(name):
     return render_template('index.html', to=name)
 ```
-templates/index.html:
+`templates/index.html`:
 ```html
 <html>
     <body>
