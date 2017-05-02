@@ -13,5 +13,11 @@
 And contains additional information
 ```python
 def maybeSomeCode():
-    okay()
+    okay()   
 ```
+
+
+
+Note:
+
+https://blog.cloudflare.com/iot-security-anti-patterns/
