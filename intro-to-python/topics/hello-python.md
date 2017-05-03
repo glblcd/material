@@ -1,11 +1,11 @@
 ## Hello, Python!
-hello.py:
 ```python
 x = 1
 if x == 1:
     # indented four spaces
     print("x is 1.")
 ```
+> hello.py
 
 +++
 ## Hello, Python!
@@ -34,4 +34,9 @@ Or using UNIX's shebang syntax:
 #!/usr/bin/python
 
 print("hello from Python!")
+```
+> hello.py
+
+```sh
+$ ./hello.py
 ```
