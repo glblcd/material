@@ -40,6 +40,7 @@ as long as the title alt text is exactly "iot in africa 2017"
 .reveal pre + blockquote>p{
   font-size: 22px; /* is this right? */
   vertical-align: top;
+  margin-top: 0px;
 }
 
 reveal .slides {	
