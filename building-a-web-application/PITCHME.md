@@ -53,12 +53,13 @@ you can bring up the next slide, then the hack! slide.
 ## Let's build one!
 * Add another *route*
 
-`myapp.py`:
 ```python
 @app.route('/whereami')
 def whereami():
     return 'Koforidua!'
 ```
+> myapp.py
+
 `python myapp.py`:
 * http://127.0.0.1:5000/whereami
 
@@ -73,14 +74,14 @@ def whereami():
 
 +++
 ## Build a homepage
-`myapp.py`:
 ```python
 from flask import Flask, render_template
 @app.route('/')
 def index():
     return render_template('index.html')
 ```
-`templates/index.html`:
+> myapp.py
+
 ```html
 <html>
     <body>
@@ -88,6 +89,8 @@ def index():
     </body>
 </html>
 ```
+> templates/index.html
+
 Note:
 * We've added a new import
 * the *templates* directory is convention
@@ -104,14 +107,14 @@ Note:
 
 ---
 ## Make it *dynamic*
-`myapp.py`:
 ```python
 from flask import Flask, render_template
 @app.route('/foo/<name>')
 def foo(name):
     return render_template('index.html', to=name)
 ```
-`templates/index.html`:
+> myapp.py
+
 ```html
 <html>
     <body>
@@ -119,6 +122,7 @@ def foo(name):
     </body>
 </html>
 ```
+> templates/index.html
 
 ---
 ## Go play!
