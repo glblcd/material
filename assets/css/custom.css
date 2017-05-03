@@ -25,8 +25,15 @@ as long as the title alt text is exactly "iot in africa 2017"
   height:200px;
 }
 
+.reveal pre + blockquote {
+  width: 33%;
+  padding: 0;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
 .reveal pre + blockquote>p{
-  font-size: 120px; /* is this right? */
+  font-size: 22px; /* is this right? */
 }
 
 reveal .slides {	
