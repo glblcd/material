@@ -32,6 +32,7 @@ A hash table
 >>> people.keys()
 ['robert', 'john', 'janet']
 ```
+>> keys()
 
 * values()
 
