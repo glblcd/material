@@ -28,7 +28,6 @@ By now, students should be familiar with pip, but worth going over again
 
 +++
 ## Let's build one!
-`myapp.py`:
 ```python
 from flask import Flask
 
@@ -41,6 +40,7 @@ def index():
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
 ```
+> myapp.py
 
 `python myapp.py`:
 *  http://127.0.0.1:5000/
