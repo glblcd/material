@@ -25,7 +25,7 @@ as long as the title alt text is exactly "iot in africa 2017"
   height:200px;
 }
 
-pre + blockquote{
+pre + blockquote>p{
   font-size: 120; /* is this right? */
 }
 
