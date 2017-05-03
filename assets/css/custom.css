@@ -16,9 +16,19 @@
   width: 1000px;
 }
 
+/* front page logo
+as long as the title alt text is exactly "iot in africa 2017"
+
+:-/
+*/
 #iot-in-africa-2017 + p>img{
   height:200px;
 }
+
+pre + blockquote{
+  font-size: 120; /* is this right? */
+}
+
 reveal .slides {	
   text-align: left;
 }
