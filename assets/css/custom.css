@@ -25,6 +25,10 @@ as long as the title alt text is exactly "iot in africa 2017"
   height:200px;
 }
 
+.reveal pre{
+  margin-bottom: 0px;
+}
+
 .reveal pre + blockquote {
   width: 33%;
   padding: 0;
@@ -35,6 +39,7 @@ as long as the title alt text is exactly "iot in africa 2017"
 
 .reveal pre + blockquote>p{
   font-size: 22px; /* is this right? */
+  vertical-align: top;
 }
 
 reveal .slides {	
