@@ -26,20 +26,17 @@ A hash table
 
 +++
 ##Dictionary
-* keys()
-
 ```sh
 >>> people.keys()
 ['robert', 'john', 'janet']
 ```
 > keys()
 
-* values()
-
 ```sh
 >>> people.keys()
 [33, 23, 25]
 ```
+> values()
 
 * items()
   * try it!
