@@ -133,3 +133,6 @@ def foo(name):
 * Bootstrap!
 https://getbootstrap.com/getting-started/
 * google ```bootstrap themes``` && go!
+
+Note:
+* Building a REST API: http://swagger.io/ for documentation
