@@ -1,6 +1,6 @@
 ## Git and GutHub
 ##### IoT in Africa | 2017
-![Git and Github](/assets/img/git-200.png)
+![Git and Github](/assets/img/git-512.png)
 Note:
 This is a great piece to do early on because it means you don't have to cargo-cult git into the early teaching sessions, and you can introduce some professional guidance ("use github!") very early in the programme.
 
@@ -67,17 +67,17 @@ identify the 'clone', 'add', and 'commit' operations
 ![Hack](/assets/img/hack-600.png)
 note:
 write a simple 'hello world' in Python, have the class work along with you
-print "This line will be printed."
+print "Hello, World!"
 git init; git add .; git commit -m "init"
 then build it into a function by adding the main sentinel:
 def main():
-    print "This line will be printed."
+    print "Hello, World!"
 
 if __name__ == "__main__":
     main()
 git add .; git commit -m "refactor executed code into a function"
 
-+++
+---
 ## History
 * `git log -p`
 * `git log --since=2.weeks`
@@ -91,12 +91,21 @@ $ git add .
 $ git commit -m "added hello world function"
 ```
 
+Note:
+Great, I've got a local repo. Now I can get change history, remember what I was doing & when, even move back to an earlier version (ask the class to find out how!)
+But... what if my computer breaks?
+
 ---
 ## Git remotes
 * How we collaborate
 * slightly different
 `git remotes`
 `git remote add <shortname> <url>`
+
+Note:
+Again, here it's a good time to draw out what a git remote is and how we can use them to collaborate
+their local <--> their github remote <--> my github clone <--> my local
+            push                 pull request             pull
 
 ---
 ## Using github
@@ -106,23 +115,19 @@ $ git add remote origin https://github.com/iotinafrica/material.git
 [git add, commit...]
 $ git push
 ```
+Note:
+Works even without collaboration. Or you can grant someone perms to push to your repo. Or use the pull-request model
 
-git shortcuts:
-* How do I make & save changes to my code?
-* How do I go back to yesterday, and ignore all of today's work?
-* How do two people work on the same codebase?
++++
+## Using github
+![go!](/assets/img/github-256.png)
+Note:
+Run-through with the class
+create a github account
+create a new project "hello world"
+add 'origin' remote to everyone's hello-world project
+git push -u origin master
 
-
-
-note:
-fun repos:
+explore fun repos:
 https://github.com/chrislgarry/Apollo-11/tree/master/Comanche055
 https://github.com/google
-
-* make a change to HelloWorld.py and do `git add HelloWorld.py`.
-  * What does `git diff` show?
-
-* What does `git status -s` do?
-
-undo: https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things
-
