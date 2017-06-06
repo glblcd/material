@@ -1,6 +1,6 @@
 ## Git and GutHub
 ##### IoT in Africa | 2017
-![Git and Github](/assets/img/git-512.png)
+![Git and Github](/assets/img/git-512.svg)
 Note:
 This is a great piece to do early on because it means you don't have to cargo-cult git into the early teaching sessions, and you can introduce some professional guidance ("use github!") very early in the programme.
 
