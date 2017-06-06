@@ -1,6 +1,6 @@
 ## Git and GutHub
 ##### IoT in Africa | 2017
-![Git and Github](/assets/img/git-512.svg)
+![Git and Github](/assets/img/git-910x380.png)
 Note:
 This is a great piece to do early on because it means you don't have to cargo-cult git into the early teaching sessions, and you can introduce some professional guidance ("use github!") very early in the programme.
 
@@ -15,7 +15,7 @@ That's where we leave this topic - branching and merge conflicts will maybe come
 
 ---
 ## How do we share code?
-![think](/assets/img/thinking-800.png)
+![think](/assets/img/thinking-512.png)
 Note:
 Let's try and lead a progressive discussion about the problem that a distributed VCS solves:
 * What if I make a change and it breaks my code?
@@ -43,7 +43,7 @@ Let's try and lead a progressive discussion about the problem that a distributed
   * microsoft, google, US government
 
 ---
-## Let's install it
+## Let's install it!
 ![install](/assets/img/debian-500.png)
 note:
 see who remembers!
