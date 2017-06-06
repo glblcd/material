@@ -96,16 +96,24 @@ Great, I've got a local repo. Now I can get change history, remember what I was 
 But... what if my computer breaks?
 
 ---
-## Git remotes
-* How we collaborate
-* slightly different
-`git remotes`
-`git remote add <shortname> <url>`
+## git remotes
+* We've been dealing with changes on a *local repo*
+* A *remote repo* allows us to:
+  * easily share code
+  * collaborate on larger projects
+  * work on different machines
+  * recover from disk failures
 
 Note:
-Again, here it's a good time to draw out what a git remote is and how we can use them to collaborate
+Here it's a good time to draw out what a git remote is and how we can use them to collaborate
 their local <--> their github remote <--> my github clone <--> my local
             push                 pull request             pull
+
++++
+## git remotes
+* A remote repository has
+  * A shortname (e.g. "origin")
+  * A URL to the location of the repository
 
 ---
 ## Using github
@@ -113,20 +121,28 @@ their local <--> their github remote <--> my github clone <--> my local
 ```sh
 $ git add remote origin https://github.com/iotinafrica/material.git
 [git add, commit...]
-$ git push
+$ git remotes
 ```
 Note:
 Works even without collaboration. Or you can grant someone perms to push to your repo. Or use the pull-request model
 
 +++
+##Using GitHub
+* https://www.github.com
+  * create an account
+  * create a new repository
+    * "HelloWorld"
+  * `git remote add origin https://github.com/<username>/HelloWorld`
+  * `git push -u origin master`
+
++++
+## Using GitHub
+* add a docstring to our `main()` method
+* push to origin
+
++++
 ## Using github
 ![go!](/assets/img/github-256.png)
-Note:
-Run-through with the class
-create a github account
-create a new project "hello world"
-add 'origin' remote to everyone's hello-world project
-git push -u origin master
 
 explore fun repos:
 https://github.com/chrislgarry/Apollo-11/tree/master/Comanche055
