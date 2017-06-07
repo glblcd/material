@@ -34,6 +34,12 @@ Also available:
 * Us!
 * Small size = great for teaching
 
+## What's it for?
+* Programming
+* Media Player: kodi.tv
+* VoIP: aspberry-asterisk.org
+* Anything you can build!
+
 ---
 ## Open source?
 * OS - yes
