@@ -47,3 +47,7 @@ Also available:
 * Switch it on
 * Install Raspbian
 * Play!
+
++++
+## Go play!
+![Hack](/assets/img/hack-600.png)
