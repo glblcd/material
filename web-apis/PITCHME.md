@@ -105,27 +105,22 @@ We could keep this data in memory - remember Python's `dictionary` type? - or st
 ---
 ## Break!
 ![Break](/assets/img/pause-256.png)
+Note:
+This is a good chance to check out openstreetmap.org!
 
 ---
 ## Web APIs
 How do I request data on the web?
-
-+++
-## Web APIs
-```sh
-$ telnet telnet koforiduapoly.edu.gh 80↵
-Trying 96.127.180.162...
-Connected to koforiduapoly.edu.gh.
-Escape character is '^]'.
-GET / HTTP/1.1↵
-↵
-```
+Note:
+"Requesting data" could simply mean looking at a webpage. What happens when we do that? We type in a web address, which contains both the domain and the path. Our browser queries a DNS server, which translates the domain name to an IP address. We then directly request the rest of the path from the server addressed by the IP address.
 
 +++ 
 ## Web APIs
 How do I *PUSH* data on the web?
 * ...like in a form
 * POST
+Note:
+Here we can use the Network tab in Chrome's developer screen to investigate the various GET requests that the browser sends when we browse to a webpage. Try to submit a form over HTTP and see the POST data being sent, too.
 
 +++
 ## Web APIs
@@ -134,6 +129,12 @@ It's called REST
 * We can use HTTP
   * To *request* with *GET*
   * To *update* with *POST*
+
+---
+## Break!
+![Break](/assets/img/pause-256.png)
+Note:
+Catch up on your labs!
 
 ---
 ## REST
@@ -151,7 +152,7 @@ POST /customer {*something*}
 +++
 ## REST
 JSON?
-* Javascript Object Notation
+* *Javascript* Object Notation
 ```javascript
 var sam = {
     givenname: "Sam",
@@ -193,8 +194,8 @@ pprint(r.json)
  u'dt': 1383907026,
  u'id': 2643743,
  u'main': {u'grnd_level': 1007.77,
-```
 ...
+```
 
 ---
 ## API
