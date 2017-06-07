@@ -1,17 +1,39 @@
 ## Web APIs
 ##### IoT in Africa | 2017
 ![Web APIs](/assets/img/weather-512.png)
+Note:
+In this topic we begin by investigating the weather together. It's a great place to start: the weather is variable, different across regions, has a dramatic effect on our life.
 
 ---
 ## What's the weather like?
 * It's July!
 * Probably quite nice
 * Look out the window
+Note:
+How do we know what the weather's like? How do we know what it's like in Accra? Watch TV weather, ask a website, ask your phone. How do those things know? Well, there are sensors in different places. What do those sensors do? Rain, temperature, wind. Every so often they "report back", add a line to a database, whatever.
 
 +++
 ## What's the weather like?
-* weather.com
-* "hey, Siri..."
+* Why do we care?
+  * How do I dress?
+  * How do I get to work?
+  * Are my plants healthy?
+  * Will my house flood?
+
++++
+## What's the weather like?
+* How did mum & dad find out?
+  * Radio?
+Note:
+Before the internet, weather reports would be on the radio, in the newspapers etc. Also, you'd know when the rainy season was coming (March-April until November). If the rain didn't come, you're out of luck. Technology has allowed us to improve weather prediction through modelling and analysis. In addition, technology protects us from the effects of the environment: [Hydroponics](https://en.wikipedia.org/wiki/Controlled-environment_agriculture) and 3D, computer-controlled farming allows us to grow plants regardless of the weather outside.
+
++++
+## What's the weather like?
+* What about now?!
+  * weather.com
+  * "hey, Siri..."
+Note:
+Try these out! Services like these aggregate weather data from physical stations located around the world to show the way things are right now. In addition, they use computer modelling, analysis and prediction to attempt to predict the weather in the hours, days and months from now. These tasks use some of the most powerful computers in the world: http://www.metoffice.gov.uk/news/in-depth/supercomputers
 
 ---
 ## Let's build it!
@@ -19,6 +41,8 @@
   * get an API key
 * pyOWM
   * `pip install pyowm`
+Note:
+OpenWeatherMap gives us a way to get weather data from a computer program, via an API ("Application Programming Interface"). This is a library that provides weather data in our program, by connecting to OpenWeatherMap over the internet.
 
 +++
 ## Let's build it!
@@ -33,42 +57,54 @@ w.get_wind()
 w.get_humidity()
 ```
 
-Note:
-https://stackoverflow.com/questions/1474489/python-weather-api
-
 ---
 ## Go play!
 ![Hack](/assets/img/hack-600.png)
 
++++
+##Go play!
+* What's the humidity in Hong Kong?
+  * Is that worse than here?
+* What's the temperature in Tokyo?
+* What's the highest city you can find?
+  * What's the air pressure there?
+* What's the windspeed in Koforidua?
+
 ---
-## Real world
+## Real world data
 * A bunch of sensor data
 * Geographically distributed
 * Somehow it gets into apps
+* What kinds of data can you think of?
+Note:
+The answer is - anything you can count or measure! Cars waiting at an intersection, people crossing a bridge, air quality, sunset time, biscuit sales, etc etc. How would you measure or count each of these? Can it be done automatically? What's the cost of manual vs automatic?
 
 +++
-## Real world
+## Real world data
 * How can we tell how sunny it is?
-* Light sensor & polling
-* What do we do with the numbers?
+  * Light sensor & polling
+  * What do we do with the numbers?
+Note:
+Here, we play a quick game. We nominate one student as the "data store" and the others have to collect the temperature data from the highest city they found. Eveyone writes the place name and temperature on a piece of paper and hands it to the data store. We can then find out the temperature in any of those cities. We've invented the key-value pair!
 
 ---
 ## Stored data
 * Key-value pairs
 * "How sunny is it in Accra?"
 * What's the key?
+Note:
+Now, let's add the *humidity* in those cities. What's the problem, and how do we overcome it?
 
 +++
 ## Stored data
-* How can I get at it?
-  * Connect to the database
-    * Problems?
+* Where can we keep it?
+* How can we get it back?
+Note:
+We could keep this data in memory - remember Python's `dictionary` type? - or store it in a database for easy look-up.
 
-+++
-## Stored data
-* How else?
-  * Build an API!
-  * Request / Response
+---
+## Break!
+![Break](/assets/img/pause-256.png)
 
 ---
 ## Web APIs
