@@ -12,9 +12,13 @@
 > "The Internet of things (IoT) is the inter-networking of physical devices, vehicles, buildings, and other items embedded with electronics, software, sensors, actuators, and network connectivity which enable these objects to collect and exchange data."
 > > Wikipedia
 
-+++?image=assets/img/fitbit-480x584.png
-+++?image=assets/img/nest-1000x1000.png
++++
+## Internet of Things
+![FitBit](/assets/img/fitbit-480x594.png)
 
++++
+## Internet of Things
+![FitBit](/assets/img/nest-1000x1000.png)
 
 +++
 ## A vertical slide has the same title as its initial HSLIDE
