@@ -144,6 +144,6 @@ Works even without collaboration. Or you can grant someone perms to push to your
 ## Using github
 ![go!](/assets/img/github-256.png)
 
-explore fun repos:
+Note: explore fun repos:
 https://github.com/chrislgarry/Apollo-11/tree/master/Comanche055
 https://github.com/google
