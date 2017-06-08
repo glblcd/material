@@ -91,7 +91,7 @@ Here, we play a quick game. We nominate one student as the "data store" and the 
 ## Stored data
 * Key-value pairs
 * "How sunny is it in Accra?"
-* What's the key?
+  * What's the key?
 Note:
 Now, let's add the *humidity* in those cities. What's the problem, and how do we overcome it?
 
