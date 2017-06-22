@@ -39,6 +39,7 @@ Also available:
 * Programming
 * Media Player: kodi.tv
 * VoIP: aspberry-asterisk.org
+* Home automation: home-assistant.io
 * Anything you can build!
 
 ---
