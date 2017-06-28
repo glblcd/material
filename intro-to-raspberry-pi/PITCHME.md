@@ -10,6 +10,7 @@
 * ...
 
 +++
+## What is the Raspberry Pi?
 * We're using the second version
 * Raspberry Pi "B":
   * 1.2 GHz 64-bit quad-core ARM CPU
@@ -17,6 +18,7 @@
   * MicroSD card slot for OS & storage
 
 +++
+## What is the Raspberry Pi?
   * 2 USB ports
   * Camera available
   * HDMI output
@@ -24,6 +26,7 @@
   * GPIO (?!)
 
 +++
+## What is the Raspberry Pi?
 Also available:
 * A - earlier model, less powerful
 * Zero - for IoT (?!)
