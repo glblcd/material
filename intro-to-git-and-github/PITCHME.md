@@ -147,3 +147,24 @@ Works even without collaboration. Or you can grant someone perms to push to your
 Note: explore fun repos:
 https://github.com/chrislgarry/Apollo-11/tree/master/Comanche055
 https://github.com/google
+
+---
+## Forking with github
+If we want to make a change to _someone else's_ project
+* take a copy of the whole project
+* make changes to my version
+* then *ask* them if they want the change
+
++++
+## Forking with github
+If we're working in a team
+* Have a `dev` repo
+* Everyone works in their own repo
+* Changes go into production from `dev`
+
++++
+## Forking with github
+Try it!
+* Fork iotinafrica/2017
+* Add your github userid to `classlist`
+* Create a "pull request" for me to merge your change
