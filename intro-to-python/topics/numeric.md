@@ -42,6 +42,24 @@ Unlimited precision for massive numbers:
 ```sh
 >>> 3.2e4
 32000.0
+
+>>> float(1)
+1.0
+
+>>>int(3.999999999)
+3
+```
+
++++
+## Float
+```sh
+>>> import math
+
+>>>math.floor(3.99999)
+3.0
+
+>>>math.ceil(3.99999)
+4.0
 ```
 
 +++
