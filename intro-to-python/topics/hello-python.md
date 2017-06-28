@@ -33,10 +33,11 @@ Or using UNIX's shebang syntax:
 ```python
 #!/usr/bin/python
 
-print("hello from Python!")
+print "hello from Python!"
 ```
 > hello.py
 
 ```sh
+$ chmod +x hello.py
 $ ./hello.py
 ```
