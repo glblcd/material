@@ -22,7 +22,7 @@ Or interpreted using the REPL:
 $ python
 >>> print("hello, Python!")
 hello, Python!
->>> ^D
+>>> ^d
 $
 ```
 Useful for experimenting. Try it!
