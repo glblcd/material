@@ -50,7 +50,7 @@ All kinds of other cool stuff!
 * competitions
 * FUN!
 
----
++++
 ## Plan
 * 9am - 4pm
 * Casual dress
