@@ -19,7 +19,7 @@
 
 +++
 ## What is the Raspberry Pi?
-  * 2 USB ports
+  * 4 USB ports
   * Camera available
   * HDMI output
   * Ethernet & WiFi
