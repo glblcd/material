@@ -10,6 +10,10 @@ else:
     print(name + "must still be pretty young)
 ```
 
+Note:
+* Tuple construction and deconstruction
+* We use `<` which is an _operator_ which returns _boolean_. 
+
 +++
 ## Conditionals
 * notice that colon
@@ -24,6 +28,9 @@ elif (now - yob) < 25:
 else:
     print("OLD!")
 ```
+
+Note:
+* We cast the result of `raw_input` to `int`
 
 +++
 ## Conditionals
