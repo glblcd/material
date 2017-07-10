@@ -11,11 +11,12 @@
 
 +++
 ## What is the Raspberry Pi?
-* We're using the second version
-* Raspberry Pi "B":
+* We're using the third version
+* Raspberry Pi 3 Model B:
   * 1.2 GHz 64-bit quad-core ARM CPU
   * 1 GB DDR2 RAM
   * MicroSD card slot for OS & storage
+  * 2.5 A power supply
 
 +++
 ## What is the Raspberry Pi?
@@ -62,3 +63,11 @@ Also available:
 +++
 ## Go play!
 ![Hack](/assets/img/hack-600.png)
+
+Note:
+1. login.iotinafrica.com everyday please
+1. Make sure you can check your email on your new computer!
+1. Make sure we've got your email address so we can add you to slack
+1. Point out where the material is
+1. "What fun things can I install on my raspberry pi?"
+1. You basically can't break it :)
