@@ -66,7 +66,6 @@ Also available:
 
 Note:
 1. login.iotinafrica.com everyday please
-1. Timing: 9am-4pm
 1. Make sure you can check your email on your new computer!
 1. Make sure we've got your email address so we can add you to slack
 1. Point out where the material is

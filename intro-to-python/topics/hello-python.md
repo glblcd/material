@@ -20,7 +20,7 @@ x is 1
 Or interpreted using the REPL:
 ```sh
 $ python
->>> print("hello, Python!")
+>>> print "hello, Python!"
 hello, Python!
 >>> ^d
 $
