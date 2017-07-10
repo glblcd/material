@@ -53,6 +53,7 @@ All kinds of other cool stuff!
 +++
 ## Plan
 * 9am - 4pm
+* Lunch @ 12
 * Casual dress
 * Join slack & whatsapp
 * Do the labs :)
