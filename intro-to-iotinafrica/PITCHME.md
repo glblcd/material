@@ -49,3 +49,10 @@ All kinds of other cool stuff!
 * cool projects
 * competitions
 * FUN!
+
+---
+## Plan
+* 9am - 4pm
+* Casual dress
+* Join slack & whatsapp
+* Do the labs :)
