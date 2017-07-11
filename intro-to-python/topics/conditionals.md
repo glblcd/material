@@ -5,9 +5,9 @@
 sam = ("Sam Moorhouse", 1984)
 name, yob = sam
 if yob < 1990:
-    print(name + " is an old dude")
+    print name + " is an old dude"
 else:
-    print(name + "must still be pretty young)
+    print name + "must still be pretty young"
 ```
 
 Note:
@@ -22,11 +22,11 @@ Note:
 yob = (int)(raw_input ( "Enter the year you were born: " ))
 now = 2017
 if (now - yob) < 18:
-    print("you're still a child")
+    print "you're still a child"
 elif (now - yob) < 25:
-    print("whoa! Still learning!")
+    print "whoa! Still learning!"
 else:
-    print("OLD!")
+    print "OLD!"
 ```
 
 Note:
@@ -47,6 +47,6 @@ Note:
 ```python
 yob = (int)(raw_input ( "Enter the year you were born: " ))
 now = 2017
-status = ("young" if (now - yob) < 30 else "old")
-print(status)
+status = "young" if (now - yob) < 30 else "old"
+print status
 ```

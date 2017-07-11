@@ -15,7 +15,7 @@
 ## Dynamic typing
 Sometimes they go nowhere:
 ```sh
->>> print(names)
+>>> print names
 ['John', 'Paul', 'George', 3]
 ```
 

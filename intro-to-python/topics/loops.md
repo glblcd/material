@@ -2,7 +2,7 @@
 ```python
 names = ["John", "Paul", "George", "Ringo"]
 for beatle in names:
-    print(beatle)
+    print beatle
 ```
     John
     Paul
@@ -15,7 +15,7 @@ Also tuples:
 ```python
 hostport = ("accdev1", 3213)
 for item in hostport:
-    print(item),
+    print item,
 ```
     "accdev1"  3213
 * "," supresses the newline!
@@ -27,7 +27,7 @@ for item in hostport:
 names = ["John", "Paul", "George", "Ringo"]
 for beatle in names:
     if len(beatle) > 4:
-        print(beatle),
+        print beatle,
 ```
     George Ringo
 
@@ -38,6 +38,6 @@ for beatle in names:
 num = 0
 while num < 5:
     num = num + 1 #++?
-    print(num),
+    print num,
 ```
     1 2 3 4 5

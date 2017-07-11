@@ -4,7 +4,7 @@
 * `def` defines a function:
 ```python
 def sayHello():
-    print("hello")
+    print "hello"
 ```
 
 +++
@@ -12,7 +12,7 @@ def sayHello():
 functions can take arguments:
 ```python
 def say(what):
-    print(what)
+    print what
 
 say("hello")
 say(1)  # ?
@@ -26,7 +26,7 @@ say([1])
 def tellMeASecret():
     return "$eCr3t"
 
-print(tellMeASecret())
+print tellMeASecret()
 ```
 
 +++
