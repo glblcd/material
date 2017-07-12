@@ -45,5 +45,5 @@ Functions can have *default* arguments:
 ```python
 def getHostPort(host='nydev1', port=8000):
     return (host, port)
-createTuple('lndev1')
+getHostPort('lndev1')
 ```
