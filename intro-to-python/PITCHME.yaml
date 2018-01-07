@@ -4,3 +4,4 @@ highlight : monokai
 logo : assets/img/logo-small-256.png
 vertical-center : false
 remote-control: true
+footnote: "&copy; Global Code 2018. Registered as a charity in the UK #1176504"
