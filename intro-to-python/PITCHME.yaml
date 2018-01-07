@@ -1,5 +1,5 @@
-theme : night
-theme-override : assets/css/custom.css
-highlight : monokai
+#theme : night
+#theme-override : assets/css/custom.css
+#highlight : monokai
 logo : assets/img/logo-small-256.png
-vertical-center : false
+#vertical-center : false
