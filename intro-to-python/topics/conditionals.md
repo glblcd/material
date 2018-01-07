@@ -10,6 +10,8 @@ else:
     print name + "must still be pretty young"
 ```
 
+@[1-2](Tuple creation and deconstruction)
+
 Note:
 * Tuple construction and deconstruction
 * We use `<` which is an _operator_ which returns _boolean_. 

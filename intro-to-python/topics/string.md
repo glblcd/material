@@ -6,7 +6,7 @@ True
 ```
 
 +++
-##String
+## String
 ...or Unicode (with care!)
 ```sh
 >>> command = "⌘"
@@ -17,7 +17,7 @@ True
 ```
 
 +++
-##String
+## String
 Some *builtin* functions work with variables:
 ```sh
 >>> len("hello")
