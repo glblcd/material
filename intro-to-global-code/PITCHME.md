@@ -1,6 +1,6 @@
-## IoT in Africa
-##### 2017
-![IoT in Africa](/assets/img/logo-small-256.png)
+## Global Code
+##### 2018
+![Global Code](/assets/img/GC_Logo_artwork_RGB-LOGO_colour_SMALL.png)
 
 ---
 ## Who are we?
