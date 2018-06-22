@@ -1,5 +1,5 @@
 ## Advanced Python
-##### IoT in Africa | 2017
+##### Global Code | 2018
 ![Advanced Python](/assets/img/course-logo.png)
 
 ---
@@ -64,6 +64,7 @@ filter(too_old, ages)
 
 
 THINGS TO COVER
+
 * PIP
 * filter, map
 * list comprehensions
