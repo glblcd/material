@@ -22,7 +22,7 @@ Note:
 * and the indentation!
 ```python
 yob = (int)(raw_input ( "Enter the year you were born: " ))
-now = 2017
+now = 2018
 if (now - yob) < 18:
     print "you're still a child"
 elif (now - yob) < 25:
@@ -48,7 +48,7 @@ Note:
   * it evaluates to a value
 ```python
 yob = (int)(raw_input ( "Enter the year you were born: " ))
-now = 2017
+now = 2018
 status = "young" if (now - yob) < 30 else "old"
 print status
 ```
