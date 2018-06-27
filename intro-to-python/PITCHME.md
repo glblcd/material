@@ -1,5 +1,5 @@
 ## Python
-##### IoT in Africa | 2017
+##### Global Code | 2018
 ![Python](/assets/img/python-360x361.png)
 
 ---?include=/intro-to-python/topics/what-is-python.md

@@ -1,5 +1,5 @@
 ## Hosting Platforms
-##### IoT in Africa | 2017
+##### Global Code | 2018
 ![Hosting Platforms](/assets/img/heroku-733x258.png)
 
 Note:

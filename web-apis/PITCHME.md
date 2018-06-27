@@ -1,5 +1,5 @@
 ## Web APIs
-##### IoT in Africa | 2017
+##### Global Code | 2018
 ![Web APIs](/assets/img/weather-512.png)
 Note:
 In this topic we begin by investigating the weather together. It's a great place to start: the weather is variable, different across regions, has a dramatic effect on our life.

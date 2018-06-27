@@ -1,5 +1,5 @@
 ## Raspberry Pi
-##### IoT in Africa | 2017
+##### Global Code | 2018
 ![Raspberry Pi](/assets/img/raspberry-pi-720x340.png)
 
 ---

@@ -1,5 +1,5 @@
 ## Intro: Internet of Things
-##### IoT in Africa | 2017
+##### Global Code | 2018
 ![Course logo alt text](/assets/img/iot-1024x706.png)
 
 ---
