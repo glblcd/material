@@ -121,7 +121,7 @@ their local <--> their github remote <--> my github clone <--> my local
 ```sh
 $ git add remote origin https://github.com/iotinafrica/material.git
 [git add, commit...]
-$ git remotes
+$ git remote -v
 ```
 Note:
 Works even without collaboration. Or you can grant someone perms to push to your repo. Or use the pull-request model
