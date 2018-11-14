@@ -1,5 +1,5 @@
 ## Hosting Platforms
-##### Global Code | 2018
+##### Global Code | 2019
 ![Hosting Platforms](/assets/img/heroku-733x258.png)
 
 Note:
@@ -91,4 +91,3 @@ Wouldn't it be cool if I could just *say* what I wanted?
 ## Containers
 "I need python running on linux, with flask, requests and SQLAlchemy installed,
 plus a postgreSQL database."
-
