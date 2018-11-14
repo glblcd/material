@@ -2,7 +2,7 @@
 Collections of data
 ```sh
 >>> names = ["John", "Paul", "George", "Ringo"]
->>> print names
+>>> print (names)
 ['John', 'Paul', 'George', 'Ringo']
 ```
 
