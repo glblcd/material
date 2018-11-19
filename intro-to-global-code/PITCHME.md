@@ -1,5 +1,5 @@
 ## Global Code
-##### 2018
+##### 2019
 ![Global Code](/assets/img/GC_Logo_artwork_RGB-LOGO_colour_SMALL.png)
 
 ---

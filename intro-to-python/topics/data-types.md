@@ -5,6 +5,8 @@ Every variable has a type...
 <type 'str'>
 >>> type(3)
 <type 'int'>
+>>> type(b'hello')
+<type 'byte'>
 ```
 ...that describes *what it is*
 
@@ -15,3 +17,6 @@ Every variable has a type...
   * List
   * Dictionary
   * Tuple
+  * Byte 
+  * Byte Array 
+  * Range

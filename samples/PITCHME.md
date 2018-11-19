@@ -1,5 +1,5 @@
 ## Course name
-##### Global Code | 2018
+##### Global Code | 2019
 ![Course logo alt text](/assets/img/course-logo.png)
 
 ---

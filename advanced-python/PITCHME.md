@@ -1,5 +1,5 @@
 ## Advanced Python
-##### Global Code | 2018
+##### Global Code | 2019
 ![Advanced Python](/assets/img/course-logo.png)
 
 ---

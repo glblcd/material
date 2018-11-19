@@ -1,5 +1,5 @@
 ## Intro: Internet of Things
-##### Global Code | 2018
+##### Global Code | 2019
 ![Course logo alt text](/assets/img/iot-1024x706.png)
 
 ---
