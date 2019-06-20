@@ -1,5 +1,6 @@
 ## Building a Wep Application
-##### Global Code | 2018
+##### Global Code | 2019
+
 ![Building a Web Application](/assets/img/flask-600.png)
 
 ---
@@ -56,7 +57,7 @@ you can bring up the next slide, then the hack! slide.
 ```python
 @app.route('/whereami')
 def whereami():
-    return 'Koforidua!'
+    return 'Ghana!'
 ```
 > myapp.py
 
@@ -66,6 +67,10 @@ def whereami():
 ---
 ## Go play!
 ![Hack](/assets/img/hack-600.png)
+
+Note:
+
+You can think of a couple of different routes. Get the students comfortable with writing this kind of code. Explain *how* the route function gets called via the annotation. Point out that it doesn't matter what the function is called - so why even give it a useful name?
 
 ---
 ## Build a homepage
@@ -94,6 +99,7 @@ def index():
 Note:
 * We've added a new import
 * the *templates* directory is convention
+* We could put the template string straight into the main file - we do it this way to manage complexity.
 
 +++
 ## Build a homepage
@@ -123,6 +129,10 @@ def foo(name):
 </html>
 ```
 > templates/index.html
+
+Note:
+
+We start with returning simple text, then rendering a template, then adding styling, and then finally enriching the template with user-defined content. If you like you can talk more about jinja, the templating language: http://flask.pocoo.org/docs/0.12/templating/
 
 ---
 ## Go play!

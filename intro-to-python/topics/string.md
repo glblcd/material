@@ -1,7 +1,7 @@
 ## String
 Use "" or '', doesn't matter:
 ```sh
->>> print "hello" == 'hello'
+>>> print ("hello" == 'hello')
 True
 ```
 
@@ -12,7 +12,7 @@ True
 >>> command = "⌘"
 >>> command
 '\xe2\x8c\x98'
->>> print command
+>>> print (command)
 ⌘
 ```
 

@@ -3,7 +3,7 @@
 x = 1
 if x == 1:
     # indented four spaces
-    print "x is 1."
+    print ("x is 1.")
 ```
 > hello.py
 
@@ -20,10 +20,9 @@ x is 1
 Or interpreted using the REPL:
 ```sh
 $ python
->>> print "hello, Python!"
+>>> print ("hello, Python!")
 hello, Python!
->>> ^d
-$
+
 ```
 Useful for experimenting. Try it!
 
@@ -33,7 +32,7 @@ Or using UNIX's shebang syntax:
 ```python
 #!/usr/bin/python
 
-print "hello from Python!"
+print ("hello from Python!")
 ```
 > hello.py
 

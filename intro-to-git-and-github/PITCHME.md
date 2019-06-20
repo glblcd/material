@@ -1,6 +1,7 @@
 ## Git and GitHub
-##### Global Code | 2018
+##### Global Code | 2019
 ![Git and Github](/assets/img/git-910x380.png)
+
 Note:
 This is a great piece to do early on because it means you don't have to cargo-cult git into the early teaching sessions, and you can introduce some professional guidance ("use github!") very early in the programme.
 

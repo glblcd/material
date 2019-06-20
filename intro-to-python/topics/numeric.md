@@ -8,10 +8,10 @@
 Math, as you'd expect:
 ```sh
 >>> x = 250
->>> print type(x)
+>>> print (type(x))
 <type 'int'>
 >>> x -= 1
->>> print x
+>>> print (x)
 249
 ```
 
