@@ -1,5 +1,5 @@
 ## Python
-##### Global Code | 2018
+##### Global Code | 2019
 ![Python](/assets/img/python-360x361.png)
 
 ---?include=/intro-to-python/topics/what-is-python.md

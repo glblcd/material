@@ -165,6 +165,6 @@ If we're working in a team
 +++
 ## Forking with github
 Try it!
-* Fork iotinafrica/2018
-* Add your github userid to `classlist`
+* Fork glblcd/material
+* Add your github userid to `intro-to-global-code/classlist`
 * Create a "pull request" for me to merge your change
