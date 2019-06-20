@@ -1,12 +1,20 @@
 ## Advanced Python
 ##### Global Code | 2019
-![Advanced Python](/assets/img/course-logo.png)
+![Advanced Python](/assets/img/python-360x361.png)
 
 ---
 ## Pip
 Package manager for Python
 * `pip install beautifulsoup4`
 * type `pip`
+
+Note:
+
+A lot less material here, really we're just rounding off the topic. 
+
+Here, the point isn't to talk about beautifulsoup, rather it's that Python comes with a rich ecosystem of open-source packages you can use in your code.
+
+It's a good opportunity to talk about modularisation of code - functions, classes & modules in Python, and how we can expose our own functionality through these mechanisms.
 
 +++
 ## Pip
@@ -27,6 +35,12 @@ Applies a function to list elements
 names = ["sam", "john", "james"]
 map(len, names)
 ```
+
+Note:
+
+Feel free to extend this with discussions of:
+* Big-O for time and space complexity
+* The dict-ness of all python objects exposed via _.__dict__()
 
 +++
 ## Map
@@ -49,6 +63,9 @@ squares = map((lambda x: x ** 2), items)
 * used *loads*
 * *pythonic*
 
+Note:
+What does "pythonic" mean - all programming languages expose the same fundamentals, but what makes one different from the other? Syntax & semantics, sure, but developers also like to build concensus around conventions. 
+
 ---
 ## Filter
 Remove items from a list
@@ -61,10 +78,3 @@ filter(too_old, ages)
 ---
 ## Let's do it!
 ![Hack](/assets/img/hack-600.png)
-
-
-THINGS TO COVER
-
-* PIP
-* filter, map
-* list comprehensions
