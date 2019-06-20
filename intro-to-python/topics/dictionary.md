@@ -1,11 +1,11 @@
-##Dictonary
+## Dictonary
 A hash table
 * sequence of key-value pairs
 * efficient lookup & insertion
 * elements aren't ordered
 
 +++
-##Dictionary
+## Dictionary
 ```sh
 >>> people = {"robert": 33, "john": 23, "steve": 44 }
 >>> people["robert"]
@@ -16,7 +16,7 @@ A hash table
 ```
 
 +++
-##Dictionary
+## Dictionary
 ```sh
 >>> del people["steve"]
 >>> people
@@ -25,7 +25,7 @@ A hash table
 ```
 
 +++
-##Dictionary
+## Dictionary
 ```sh
 >>> people.keys()
 ['robert', 'john', 'janet']

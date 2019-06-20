@@ -1,4 +1,4 @@
-## Bytes and Byte Arrays
+## Bytes & Byte Arrays
 
 * Bytes objects are immutable sequences of single bytes. 
 
@@ -14,7 +14,7 @@ b'Bytes objects are immutable sequences of single bytes'
 
 +++
 
-## bytes() function
+## bytes()
 * Returns a new "bytes" object 
 * It's range is 0 <= x < 256
 
@@ -27,7 +27,9 @@ bytes([source[, encoding[, errors]]])
 
 ```
 
-## bytearray() function 
++++
+
+## bytearray()
 
 * Return a new array of bytes. 
 * The bytearray type is a mutable sequence of integers in the range 0 <= x < 256. 
@@ -59,7 +61,7 @@ b'El ni\xc3\xb1o come camar\xc3\xb3n'
 
 ```
 
-
++++
 
 ```
 # create a string using the decode() method of bytes.
