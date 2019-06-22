@@ -53,7 +53,9 @@ Philips Hue is an intelligent light that's controllable through an app, or throu
 * If This Then That
   * Like programming!
   * "Recipes" for IoT
+
 Note:
+
 We'll browse to www.ifttt.com - to see how we can quickly and easily "tie up" internet events. Look here for some example recipes: https://ifttt.com/discover
 
 Note:
