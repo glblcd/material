@@ -58,6 +58,5 @@ Note:
 
 We'll browse to www.ifttt.com - to see how we can quickly and easily "tie up" internet events. Look here for some example recipes: https://ifttt.com/discover
 
-Note:
 Here you can also talk about some potential drawbacks for IoT. In my experience the class is more attuned to job losses through automation than they are to security concerns.
 https://blog.cloudflare.com/iot-security-anti-patterns/
