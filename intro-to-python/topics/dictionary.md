@@ -33,7 +33,7 @@ A hash table
 > keys()
 
 ```sh
->>> people.keys()
+>>> people.values()
 [33, 23, 25]
 ```
 > values()
