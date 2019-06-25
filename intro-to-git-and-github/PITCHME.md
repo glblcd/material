@@ -122,7 +122,7 @@ their local <--> their github remote <--> my github clone <--> my local
 ```sh
 $ git add remote origin https://github.com/iotinafrica/material.git
 [git add, commit...]
-$ git remotes
+$ git remote -v
 ```
 Note:
 Works even without collaboration. Or you can grant someone perms to push to your repo. Or use the pull-request model
@@ -166,6 +166,8 @@ If we're working in a team
 +++
 ## Forking with github
 Try it!
-* Fork glblcd/material
-* Add your github userid to `intro-to-global-code/classlist`
+* Fork `glblcd/ClassBook2018`
+* Each site will have a sub-directory
+* Add your github userid to a new line in `<org>/classlist`
+* Upload your photo to `<org>/<username>.jpg` (keep resolution / size low)
 * Create a "pull request" for me to merge your change
