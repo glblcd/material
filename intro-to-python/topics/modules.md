@@ -8,10 +8,6 @@
 +++
 ## Modules
 * `import package.subpackage.module`
-* e.g *Talk.py*:
-```python
-def get
-```
 
 +++
 ## Modules
