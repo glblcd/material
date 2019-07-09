@@ -1,4 +1,4 @@
-## Dictonary
+## Dictionary
 A hash table
 * sequence of key-value pairs
 * efficient lookup & insertion
