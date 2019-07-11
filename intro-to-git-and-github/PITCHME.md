@@ -119,7 +119,7 @@ their local <--> their github remote <--> my github clone <--> my local
 ## Using github
 * It's a remote!
 ```sh
-$ git add remote origin https://github.com/iotinafrica/material.git
+$ git remote add origin https://github.com/iotinafrica/material.git
 [git add, commit...]
 $ git remotes
 ```
