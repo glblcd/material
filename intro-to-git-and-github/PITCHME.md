@@ -120,7 +120,7 @@ their local <--> their github remote <--> my github clone <--> my local
 ## Using github
 * It's a remote!
 ```sh
-$ git add remote origin https://github.com/iotinafrica/material.git
+$ git remote add origin https://github.com/iotinafrica/material.git
 [git add, commit...]
 $ git remote -v
 ```
@@ -166,8 +166,13 @@ If we're working in a team
 +++
 ## Forking with github
 Try it!
+<<<<<<< HEAD
 * Fork `glblcd/ClassBook2018`
 * Each site will have a sub-directory
 * Add your github userid to a new line in `<org>/classlist`
 * Upload your photo to `<org>/<username>.jpg` (keep resolution / size low)
+=======
+* Fork iotinafrica/2018
+* Add your github userid to `classlist`
+>>>>>>> ee4fcda1995d311f76948bd33bcb0d456b7e8c0d
 * Create a "pull request" for me to merge your change
