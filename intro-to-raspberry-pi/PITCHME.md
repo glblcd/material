@@ -57,7 +57,7 @@ Also available:
 ## Let's get started!
 * Plug it in
 * Switch it on
-* Install Raspbian
+* Install Raspberry Pi OS
 * Play!
 
 +++
