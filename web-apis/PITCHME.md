@@ -121,6 +121,7 @@ We could keep this data in memory - remember Python's `dictionary` type? - or st
 ---
 ## Break!
 ![Break](/assets/img/pause-256.png)
+
 Note:
 This is a good chance to check out openstreetmap.org!
 
