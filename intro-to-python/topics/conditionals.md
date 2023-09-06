@@ -10,8 +10,6 @@ else:
     print (name + "must still be pretty young")
 ```
 
-@[1-2](Tuple creation and deconstruction)
-
 Note:
 * Tuple construction and deconstruction
 * We use `<` which is an _operator_ which returns _boolean_. 
@@ -22,7 +20,7 @@ Note:
 * and the indentation!
 ```python
 yob = (int)(raw_input ( "Enter the year you were born: " ))
-now = 2019
+now = 2024
 if (now - yob) < 18:
     print ("you're still a child"(
 elif (now - yob) < 25:
@@ -48,7 +46,7 @@ Note:
   * it evaluates to a value
 ```python
 yob = (int)(raw_input ( "Enter the year you were born: " ))
-now = 2019
+now = 2024
 status = "young" if (now - yob) < 30 else "old"
 print (status)
 ```

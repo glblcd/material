@@ -1,5 +1,5 @@
 ## Hosting Platforms
-##### Global Code | 2019
+##### Global Code | 2024
 ![Hosting Platforms](/assets/img/heroku-733x258.png)
 
 Note:

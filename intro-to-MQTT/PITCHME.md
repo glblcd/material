@@ -1,5 +1,5 @@
 ## MQTT
-##### Global Code | 2019
+##### Global Code | 2024
 ![MQTT](/assets/img/mqtt.png)
 
 ---

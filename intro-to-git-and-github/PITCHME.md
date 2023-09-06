@@ -1,5 +1,5 @@
 ## Git and GitHub
-##### Global Code | 2019
+##### Global Code | 2024
 ![Git and Github](/assets/img/git-910x380.png)
 
 Note:
