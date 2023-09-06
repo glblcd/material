@@ -1,5 +1,5 @@
 ## Web APIs
-##### Global Code | 2019
+##### Global Code | 2024
 ![Web APIs](/assets/img/weather-512.png)
 Note:
 In this topic we begin by investigating the weather together. It's a great place to start: the weather is variable, different across regions, has a dramatic effect on our life.
@@ -121,6 +121,7 @@ We could keep this data in memory - remember Python's `dictionary` type? - or st
 ---
 ## Break!
 ![Break](/assets/img/pause-256.png)
+
 Note:
 This is a good chance to check out openstreetmap.org!
 

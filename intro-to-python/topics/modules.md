@@ -11,7 +11,8 @@
 
 +++
 ## Modules
-* We're working mostly with functions
+* We're working mostly with functions 
+* Everything in Python is an Object
 * Python has *much* more
   * Classes and objects
   * Inheritance

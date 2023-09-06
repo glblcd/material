@@ -1,5 +1,5 @@
 ## Advanced Python
-##### Global Code | 2019
+##### Global Code | 2024
 ![Advanced Python](/assets/img/python-360x361.png)
 
 ---

@@ -1,4 +1,6 @@
 ## Loops
+Let's talk about iterative workflow
+
 ```python
 names = ["John", "Paul", "George", "Ringo"]
 for beatle in names:

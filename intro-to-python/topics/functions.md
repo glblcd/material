@@ -47,3 +47,9 @@ def getHostPort(host='nydev1', port=8000):
     return (host, port)
 getHostPort('lndev1')
 ```
+
++++
+## Block scoping
+You must have noticed the indentations and colons 
+* why are do we use it ?
+* what is global scope ? block scope ?  function scope
