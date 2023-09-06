@@ -73,7 +73,7 @@ A lot of our students are excited to learn what a professional software engineer
 ## Plan
 All kinds of other cool stuff!
 * We're *really* good at this
-* who's used git? heroku?
+* who's used git? Render? Raspberry Pi ? Arduinos ?
 * cool projects
 * FUN!
 
