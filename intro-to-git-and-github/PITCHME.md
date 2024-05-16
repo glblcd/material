@@ -1,5 +1,5 @@
 ## Git and GitHub
-##### Global Code | 2019
+##### Global Code | 2024
 ![Git and Github](/assets/img/git-910x380.png)
 
 Note:
@@ -17,6 +17,7 @@ That's where we leave this topic - branching and merge conflicts will maybe come
 ---
 ## How do we share code?
 ![think](/assets/img/thinking-512.png)
+
 Note:
 Let's try and lead a progressive discussion about the problem that a distributed VCS solves:
 * What if I make a change and it breaks my code?
@@ -45,20 +46,34 @@ Let's try and lead a progressive discussion about the problem that a distributed
 
 ---
 ## Let's install it!
-![install](/assets/img/debian-500.png)
-note:
-see who remembers!
-$ sudo apt-get install git
-run `git` to show some of the commands
-$ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
-$ git config --list
+![install](/assets/img/git-910x380.png)
 
----
+  $ sudo apt install git
+Note:
+see who remembers what apt is - the debian package manager
+
++++
+## We also use GitHub!
+* Allows us to keep our code remotely
+* https://www.github.com
+  * create an account
+ 
++++ 
+## Using Git 
+run `git` to show some of the commands. 
+Configure your git terminal with your github credentials
+```sh
+  $ git config --global user.name "John Doe"
+  $ git config --global user.email johndoe@example.com
+  $ git config --list 
+```
++++
 ## Git basics
 * Working directory
 * Staging area
 * .git directory
+* What are commits
+
 note:
 Draw from https://git-scm.com/book/en/v2/Getting-Started-Git-Basics when you're drawing this out on the board
 identify the 'clone', 'add', and 'commit' operations
@@ -78,23 +93,29 @@ if __name__ == "__main__":
     main()
 git add .; git commit -m "refactor executed code into a function"
 
----
-## History
-* `git log -p`
-* `git log --since=2.weeks`
 
 ---
 ## Single-user workflow
+* Create a new project directory and intialize git
 ```sh
-$ git init
-[...]
-$ git add .
-$ git commit -m "added hello world function"
+  $ git init
+```
+* write a simple 'hello world' in Python
+* Now lets add our new change to git 
+
+```sh
+  $ git add .
+  $ git commit -m "added hello world function"
 ```
 
 Note:
 Great, I've got a local repo. Now I can get change history, remember what I was doing & when, even move back to an earlier version (ask the class to find out how!)
 But... what if my computer breaks?
+
+---
+## History
+* `git log -p`
+* `git log --since=2.weeks`
 
 ---
 ## git remotes
@@ -116,32 +137,17 @@ their local <--> their github remote <--> my github clone <--> my local
   * A shortname (e.g. "origin")
   * A URL to the location of the repository
 
----
-## Using github
-* It's a remote!
-```sh
-$ git remote add origin https://github.com/iotinafrica/material.git
-[git add, commit...]
-$ git remote -v
-```
-Note:
-Works even without collaboration. Or you can grant someone perms to push to your repo. Or use the pull-request model
-
 +++
 ## Using GitHub
-* https://www.github.com
-  * create an account
-  * create a new repository
+ * create a new repository
     * "HelloWorld"
-  * `git remote add origin https://github.com/<username>/HelloWorld`
-  * `git push -u origin master`
-
+```sh
+  git remote add origin https://github.com/<username>/HelloWorld
+  git branch -M main
+  git push -u origin main
+```
 +++
-## Using GitHub
-* add a docstring to our `main()` method
-* push to origin
 
-+++
 ## Using github
 ![go!](/assets/img/github-256.png)
 
@@ -150,29 +156,42 @@ https://github.com/chrislgarry/Apollo-11/tree/master/Comanche055
 https://github.com/google
 
 ---
-## Forking with github
+## Contrbute with github
 If we want to make a change to _someone else's_ project
 * take a copy of the whole project
 * make changes to my version
 * then *ask* them if they want the change
 
 +++
-## Forking with github
+## Collaborate with github
 If we're working in a team
 * Have a `dev` repo
 * Everyone works in their own repo
 * Changes go into production from `dev`
 
 +++
-## Forking with github
+## Forking, issues and pull reqauest with github 
+
+<!-- ## Forking with github
 Try it!
-<<<<<<< HEAD
 * Fork `glblcd/ClassBook2018`
 * Each site will have a sub-directory
 * Add your github userid to a new line in `<org>/classlist`
 * Upload your photo to `<org>/<username>.jpg` (keep resolution / size low)
-=======
 * Fork iotinafrica/2018
 * Add your github userid to `classlist`
->>>>>>> ee4fcda1995d311f76948bd33bcb0d456b7e8c0d
-* Create a "pull request" for me to merge your change
+* Create a "pull request" for me to merge your change -->
+
+<!-- ---
+## We also use Github!
+* It's a remote!
+```sh
+$ git remote add origin https://github.com/iotinafrica/material.git
+[git add, commit...]
+$ git remote -v
+```
+Note:
+Works even without collaboration. Or you can grant someone perms to push to your repo. Or use the pull-request model -->
+
+<!-- * add a docstring to our `main()` method
+* push to origin -->

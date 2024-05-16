@@ -1,5 +1,5 @@
 ## Raspberry Pi
-##### Global Code | 2019
+##### Global Code | 2024
 ![Raspberry Pi](/assets/img/raspberry-pi-720x340.png)
 
 ---
@@ -57,7 +57,7 @@ Also available:
 ## Let's get started!
 * Plug it in
 * Switch it on
-* Install Raspbian
+* Install Raspberry Pi OS
 * Play!
 
 +++
