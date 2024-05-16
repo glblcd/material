@@ -9,22 +9,15 @@ if yob < 1990:
 else:
     print (name + "must still be pretty young")
 ```
-
-@[1-2](Tuple creation and deconstruction)
-
-Note:
-* Tuple construction and deconstruction
-* We use `<` which is an _operator_ which returns _boolean_. 
-
 +++
 ## Conditionals
 * notice that colon
 * and the indentation!
 ```python
-yob = (int)(raw_input ( "Enter the year you were born: " ))
-now = 2019
+yob = int(input( "Enter the year you were born: " ))
+now = 2024
 if (now - yob) < 18:
-    print ("you're still a child"(
+    print ("you're still a child")
 elif (now - yob) < 25:
     print ("whoa! Still learning!")
 else:
@@ -33,13 +26,31 @@ else:
 
 Note:
 * We cast the result of `raw_input` to `int`
++++
+### Conditional Operators
+
+Changing the flow of control based on different conditions
+
+* '>'
+* '>'
+* '=='
+* '!='
+* '<='
+* '>=' 
+We can also combine different conditions using the logical operators
+* and,  or
 
 +++
 ## Conditionals
 * conditions are *evaluated in order*
-* `print` is a *function*
+* `print` is an inbuilt *function*
 * we can attempt to *cast* one data type to another
+  * Why should we cast data types?
   * Does it always work?
+  try 
+  ```
+  some_string = int("caststring")
+  ```
   * Should it?!
 
 +++
@@ -47,8 +58,8 @@ Note:
 * `if` in an *expression*
   * it evaluates to a value
 ```python
-yob = (int)(raw_input ( "Enter the year you were born: " ))
-now = 2019
+yob = int(input("Enter the year you were born:"))
+now = 2024
 status = "young" if (now - yob) < 30 else "old"
 print (status)
 ```
