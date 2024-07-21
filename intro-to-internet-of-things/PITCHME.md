@@ -17,12 +17,32 @@ It's likely that by this time you've done the GPIO work, so our students should 
 
 +++
 ## Internet of Things
-"The Internet of things (IoT) is the inter-networking of physical devices, vehicles, buildings, and other items embedded with electronics, software, sensors, actuators, and network connectivity which enable these objects to collect and exchange data."
+"The Internet of Things, or IoT, refers to the network of physical objects ('things') that are embedded with sensors, software, and other technologies. The purpose is to connect and exchange data with other devices and systems over the internet."
 > Wikipedia
+
+Note: 
+Imagine if everyday objects in your house could send you messages through the internet. For example, if someone breaks into your house, sensors on the doors and windows could instantly alert your smartphone.
+
+![iot-image](/assets/img/iot-image.png)
 
 +++
 ## Internet of Things
-![FitBit](/assets/img/fitbit-480x594.png)
+How it works?
+* Devices:  These are the 'things' in IoT, like sensors, smartwatches, or refrigerators, equipped with technology to collect data.
+* Connectivity: These devices need a way to send the data they collect to the cloud or directly to other devices. This can happen via Wi-Fi, Bluetooth, cellular networks, or other means.
+* Data Processing: Once the data reaches its destination, it needs to be processed. This can happen on a computer, a cloud server, or even on the devices themselves.
+* User Interface: Finally, the processed data is made useful to the users through interfaces like smartphone apps, web pages, or even voice responses. This is where you can check data, control IoT devices, or receive alerts.
+
++++
+## Internet of Things
+![working-of-iot-image.png](/assets/img/working-of-iot-image.png)
+
+A simple diagram illustrating how IoT works.
+
+<!-- > [Reference]"(https://techvidvan.com/tutorials/how-iot-works/) -->
+
+## Internet of Things
+![FitBit](/assets/img/fitbit.png)
 
 Fitbit - a wearable IoT device
 
@@ -31,32 +51,46 @@ The FitBit is a "wearable" device which senses and records your heartrate and st
 
 +++
 ## Internet of Things
-![Nest](/assets/img/nest-225x225.png)
-
-Nest - a home automation system
-
-Note:
-Nest is a home automation thermostat which monitors and regulates the temperature in your house. It saves you money and helps the environment by detecting when you've left the house and switching off energy-consuming devices. You set a desired temperature and it intelligently maintains a comfortable room for you.
-
-+++
-## Internet of Things
-![Philips Hue](/assets/img/hue-513x511.png)
+![smart-light](/assets/img/smart-light.png)
 
 Hue - smart lights with an app
 
 Note:
-Philips Hue is an intelligent light that's controllable through an app, or through Siri on your iPhone. You can set different moods for different times of the day - for example have the lights dimmed in the evening - or have pre-set choices for when you have a party or event.
+An intelligent light that's controllable through an app, or through Siri on your iPhone. You can set different moods for different times of the day - for example have the lights dimmed in the evening - or have pre-set choices for when you have a party or event.
 
 ---
-## IFTTT
-* ifttt.com/
-* If This Then That
-  * Like programming!
-  * "Recipes" for IoT
++++
+## IFTTT(If This Then That.)
+IFTTT is a service that lets you make simple rules, called applets, which tell your devices what to do when something happens.
+
+Applets are small programs created within IFTTT that automate actions between your internet-connected devices. 
+
+Example: If I arrive home, then turn on the lights.
+
+IFTTT connects your IoT devices in useful ways without needing any complex programming. 
 
 Note:
-
 We'll browse to www.ifttt.com - to see how we can quickly and easily "tie up" internet events. Look here for some example recipes: https://ifttt.com/discover
 
 Here you can also talk about some potential drawbacks for IoT. In my experience the class is more attuned to job losses through automation than they are to security concerns.
 https://blog.cloudflare.com/iot-security-anti-patterns/
+
++++
+## IFTTT(If This Then That.)
+![IFTTT-example](/assets/img/IFTTT-example.png)
+
+Example of applet created on the IFTTT website. 
+
++++
+## IFTTT(If This Then That.)
+Benefits And Challenges of IoT?
+
+Note:
+Interaction with class, what are some of the benefits and challenges of IoT?
+-Benefits
+Convenience, efficiency, energy savings
+Discussion on real-life impacts of IoT
+-challenges
+Privacy concerns
+Security risks
+Technical issues like connectivity
