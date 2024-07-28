@@ -259,17 +259,24 @@ As a software developer, you are almost guaranteed to work with or build APIs at
 
 Although flexibility is a big advantage of REST APIs, that same flexibility makes it easy to design an API that’s broken or performs poorly. For this reason, developers share best practices in `REST API specifications`.
 
-Having the ability to provide a definition of your API to other people – your colleagues, companies you partner with or organizations who you provide APIs to – is vital to doing business.
+Having the ability to provide a definition of your API to other people – your colleagues, companies you partner with or organizations who you provide APIs to – is vital to building quality APIs.
 
-API specification languages provide a standardized means to do this. Your APIs can be described in agnostic terms, decoupling them from any specific programming language. Consumers of your API specification do not need to understand the guts of your application or try to learn Lisp or Haskell if that’s what you chose to write it in. They can understand exactly what they need from your API specification, written in a simple and expressive language.
+API specification languages provide a standardized means to do this.
+Your APIs can be described in agnostic terms, decoupling them from any specific programming language. 
+Consumers of your API specification do not need to understand the guts of your application or try to learn Lisp or Haskell if that’s what you chose to write it in. They can understand exactly what they need from your API specification, written in a simple and expressive language.
 
 `The OpenAPI Specification (OAS) enables exactly this transfer of knowledge from API provider to API consumer.`
+
 Swagger was the original implementation of the OpenAPI specification but the industry and most tooling has now converged to use OpenAPI.
 
 What is the OpenAPI specification?
 * it is an open standard for describing your APIs
-* allows us to provide an API specification encoded in a JSON or YAML document.
-* it  provides a comprehensive dictionary of terms that reflects commonly-understood concepts in the world of APIs, embedding the fundamentals of HTTP and JSON 
+* allows us to provide an API specification encoded in a JSON or YAML document
+* it provides a comprehensive dictionary of terms that reflects commonly-understood concepts in the world of APIs
+  * available endpoints
+  * allowed operations
+  * parameters
+  * authentication methods and much more
 
 Now it's a good time to point students to the OpenAPI initiative, https://www.openapis.org/ .
 
