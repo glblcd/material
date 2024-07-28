@@ -2,20 +2,23 @@
 ##### 2024
 ![Global Code](/assets/img/GC_Logo_artwork_RGB-LOGO_colour_SMALL.png)
 
---- 
+---
+The computer is one of the most important inventions of the 20th century. Everything seems to run on computers now. But the hardware we think of as the “computer” is nothing without an interface between computer users and the hardware, which is where the operating system comes in.
+
 ## What is Linux ?
 Linux is an open source operating system (OS). 
 
 A good start to the class would be asking the students if they know what Linux is, although they may be quiet at first, we found that the more engaging a class is, the more keen they are to learn too.
 
-* What are other famous open source operating systems?
 * What is an operating system?
-* What does an operating system do?
+    * most important software on your computer, allow us to communicate with a computer without knowing how to speak the computer's language
+* What does an operating system do? 
+    * Process scheduling, memory, device and file management, security) 
+* What are other famous open source operating systems?
 * Do they use an OS?
 
 
-
-Every Linux-based OS involves the Linux kernel.
+Every Linux-based OS involves the `Linux Kernel`.
 
 That's the main component of the Linux operating system, communicates between a computer's hardware and its processes.
 
