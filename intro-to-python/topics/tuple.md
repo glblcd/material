@@ -4,7 +4,7 @@ A way to join related data:
 hostport = ("accdev1", 3213)
 ```
 
-Tuple is immutable unlike python list 
+Tuple is immutable unlike a python list 
 
 +++
 ## Tuple
@@ -14,12 +14,12 @@ sam = ("Sam Moorhouse", 1984)
 ```
 * What does *1984* refer to? (Careful!)
 * Is there a better way?
-
+* How does this compare to maps?
 
 +++ 
 ## Tuple creation and destructuring
 
-Destructuring the tuple means getting the values from the tuple in separate variables
+Destructuring the tuple means getting the values from the tuple in separate variables:
 
 ```
 ho_techical = ("Ghana", 5000, "Engineering") 
@@ -35,3 +35,5 @@ print(no_student)
 # print type of college
 print(type_ofcollege)
 ```
+
+This is a form of what are called *records* in other languages

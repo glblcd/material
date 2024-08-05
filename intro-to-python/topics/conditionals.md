@@ -3,7 +3,7 @@
 * allows us to affect the *flow of control*
 ```python
 sam = ("Sam Moorhouse", 1984)
-name, yob = sam
+(name, yob) = sam
 if yob < 1990:
     print (name + " is an old dude")
 else:
@@ -26,6 +26,7 @@ else:
 
 Note:
 * We cast the result of `raw_input` to `int`
+* What happens if we enter something that's not an `int`
 +++
 ### Conditional Operators
 

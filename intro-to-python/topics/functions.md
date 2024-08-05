@@ -36,7 +36,7 @@ print (tellMeASecret())
 def getHostPort():
     return ("nydev1", 3123)
 
-host, port = getHostPort()
+(host, port) = getHostPort()
 ```
 
 +++
