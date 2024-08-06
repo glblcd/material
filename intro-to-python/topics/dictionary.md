@@ -1,8 +1,10 @@
 ## Dictionary
-A hash table
-* sequence of key-value pairs
-* efficient lookup & insertion
-* elements aren't ordered
+A hash table -- what does that mean?
+* An *association* -- a *key* is associated with a *value*
+* Like a dictionary that translates between languages
+* A basic data structure
+* Can be thought of as a list of pairs
+* Elements aren't ordered though
 
 +++
 ## Dictionary

@@ -1,5 +1,5 @@
 ## String
-Use "" or '', doesn't matter:
+Use "" or '', doesn't matter (unlike some other languages):
 ```sh
 >>> print ("hello" == 'hello')
 True

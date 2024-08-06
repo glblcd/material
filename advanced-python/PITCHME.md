@@ -30,7 +30,7 @@ RTFM: https://pip.pypa.io/
 
 ---
 ## Map
-Applies a function to list elements
+Applies a function to a list, element by element
 ```python
 names = ["sam", "john", "james"]
 map(len, names)
@@ -51,6 +51,15 @@ map(sqr, map(len,names))
 ```
 
 ---
+## Filter
+Remove items from a list
+```python
+def too_old(x): return x > 30
+ages = [22, 25, 29, 34, 56, 24, 12]
+filter(too_old, ages)
+```
+
+---
 ## Lambda
 A function without a name
 ```python
@@ -65,15 +74,6 @@ squares = map((lambda x: x ** 2), items)
 
 Note:
 What does "pythonic" mean - all programming languages expose the same fundamentals, but what makes one different from the other? Syntax & semantics, sure, but developers also like to build concensus around conventions. 
-
----
-## Filter
-Remove items from a list
-```python
-def too_old(x): return x > 30
-ages = [22, 25, 29, 34, 56, 24, 12]
-filter(too_old, ages)
-```
 
 ---
 ## Let's do it!

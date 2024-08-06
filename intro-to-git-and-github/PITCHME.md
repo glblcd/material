@@ -3,13 +3,15 @@
 ![Git and Github](/assets/img/git-910x380.png)
 
 Note:
-This is a great piece to do early on because it means you don't have to cargo-cult git into the early teaching sessions, and you can introduce some professional guidance ("use github!") very early in the programme.
+This is a great piece to do early on because it means you don't have to handwave git into the early teaching sessions, and you can introduce some professional guidance ("use github!") very early in the programme.
 
 There's a mixture of discussion, technical explanation (which can maybe be a bit dry?), and walkthrough which you must do with the class - creating a github account, create a "hello world" project, clone the repo, write some code locally, commit it locally, then push to the github remote. Then browse to github and - hey presto! - your code is right there.
 
-Make sure everyone in the class is keeping up with all the steps. If possible, write them down and keep them at the front of the class as a cheat-sheet for the rest of the programme. Impress upon the class how important it is to use github for *each* project they work on, even small stuff. Show them your own github repo - you're a pro, after all - show them microsoft's, maybe ask them to go find the code for a project they know.
+Make sure everyone in the class is keeping up with all the steps. If possible, write them down and keep them at the front of the class as a cheat-sheet for the rest of the programme. Impress upon the class how important it is to use github for *each* project they work on, even small stuff. They need to commit very regularly.
 
-Show how you can use a github project's wiki, issues pages etc.
+Doubly impress that git is a workshop, not a trophy case. It is there for work in-progress, including things that you don't fully understand or may not be able to fix. Show them your own github repo - you're a pro, after all - show them microsoft's, maybe ask them to go find the code for a project they know.
+
+Show how you can use a github project's wiki, issues pages etc. Consider using the metaphor of video game savepoints.
 
 That's where we leave this topic - branching and merge conflicts will maybe come up later in the programme and you can have an ad-hoc discussion about merges, fast-forwards etc.
 
