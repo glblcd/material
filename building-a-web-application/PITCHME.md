@@ -15,13 +15,11 @@ At this point, it's a good idea to draw out the box diagrams:
   * Keep the diagram on a whiteboard & refer back to it through the session
 ---
 ## Let's build one!
-* Flask is a web server
-  * ...and other things
-  * for Python
+* Flask is a powerful and flexible micro web framework for Python, ideal for both small and large web projects.
   * there are others (e.g. Django)
 
 ```sh
-sudo pip install Flask
+sudo pip3 install Flask
 ```
 
 Note:
@@ -43,10 +41,20 @@ if __name__ == '__main__':
 ```
 > myapp.py
 
-`python myapp.py`:
+`python3 myapp.py`:
 *  http://127.0.0.1:5000/
 
 Note:
+Open a Text Editor:
+On your Raspberry Pi, you can use a basic text editor like nano or a more advanced one like Thonny which comes pre-installed with Raspberry Pi OS.
+or
+Type nano myapp.py (you can replace myapp.py with any name you like, just ensure it ends with .py).
+Enter the Code:
+
+Copy the Flask code you have into the text editor.
+Save the File:
+If you are using nano, you can save the file by pressing Ctrl+O, then Enter, and exit using Ctrl+X.
+Type python3 myapp.py to start your Flask application. This
 Get the students to do this, right now. Then, when most are on their way,
 you can bring up the next slide, then the hack! slide.
 
