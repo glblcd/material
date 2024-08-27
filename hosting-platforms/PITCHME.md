@@ -1,6 +1,6 @@
 ## Hosting Platforms
 ##### Global Code | 2024
-![Hosting Platforms](/assets/img/heroku-733x258.png)
+![Hosting Platforms](/assets/img/hosting-platforms-img.png)
 
 Note:
 This is a great course for teaching in the platonic method - 
